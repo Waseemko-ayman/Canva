@@ -699,6 +699,13 @@ header nav .main-nav > li {
     gap: 30px;
 }
 
+@media (max-width: 400px) {
+    .features .grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
 .features .grid .box {
     text-align: center;
     max-width: 100%;
@@ -800,6 +807,12 @@ header nav .main-nav > li {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 80px;
     margin-top: 70px;
+}
+
+@media (max-width: 400px) {
+    .team .grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .team .grid .box {
@@ -998,6 +1011,12 @@ header nav .main-nav > li {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 50px;
+}
+
+@media (max-width: 400px) {
+    .package .grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .package .grid .box {
